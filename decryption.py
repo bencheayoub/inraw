@@ -38,7 +38,6 @@ def rev_crow(cr, delta = 0):
         print('crow', crow(p, q, r))
         return p, q, r
 
-
 cr = open('flag.enc', "rb").read()
 cr = bytes_to_long(cr)
 print('crow', cr)
